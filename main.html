@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="questionShow(0)">
+
+    <div>
+        <h1 id="timer"></h1>
+    </div>
+    <div class="card main-box"> 
+
+        <p id="question_show" ></p>
+        <ul>
+            <li class="answer_show" onclick="active(this)"></li><br>
+            <li class="answer_show" onclick="active(this)"></li><br>
+            <li class="answer_show" onclick="active(this)"></li><br>
+            <li class="answer_show" onclick="active(this)"></li><br>
+        </ul>
+        
+        <button onclick="nextBtn()">Next</button>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
