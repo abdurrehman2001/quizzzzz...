@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+body{
+    background-image: linear-gradient(to right , rgb(187, 184, 184) , black);
+}
+.card{
+    border: 6px solid silver;
+    text-align: center;
+}
+.main-box{
+     margin: 0px auto;
+     width: 50%;
+     margin-top: 16%;
+}
+input{
+    width: 60%;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-size: 22px;
+    font-family:"Source Code Pro";
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 100px;
+}
+input::placeholder{
+    color: black;
+    font-size: 30px;
+    font-family:"Source Code Pro";
+    font-weight: bold;
+    font-style: italic;
+}
+input:focus{
+    border: 3px solid;
+    outline: none;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+h2{
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
+    font-style: italic;
+    font-family: cursive ;
+}
+button{
+    
+    background-image: linear-gradient(to right, #1F1C2C 0%, #928DAB  51%, #1F1C2C  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;       
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
